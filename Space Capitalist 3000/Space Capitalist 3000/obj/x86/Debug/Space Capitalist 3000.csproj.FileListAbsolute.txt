@@ -1,0 +1,8 @@
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Space Capitalist 3000.exe
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Space Capitalist 3000.pdb
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\NVorbis.dll
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\obj\x86\Debug\Space Capitalist 3000.csprojResolveAssemblyReference.cache
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\obj\x86\Debug\Space Capitalist 3000.exe
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\obj\x86\Debug\Space Capitalist 3000.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/joe/Documents/Visual Studio 2015/Projects/Space-Capitalist-3000/Space Capitalist 3000/Space Capitalist 3000/Content/menufont.spritefont</SourceFile>
+  <SourceTime>2015-09-17T05:42:10+10:00</SourceTime>
+  <DestFile>C:/Users/joe/Documents/Visual Studio 2015/Projects/Space-Capitalist-3000/Space Capitalist 3000/Space Capitalist 3000/Content/bin/WindowsGL/menufont.xnb</DestFile>
+  <DestTime>2016-02-11T20:08:56.8777592+11:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2015-12-18T08:52:48+11:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2015-12-18T08:52:48+11:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

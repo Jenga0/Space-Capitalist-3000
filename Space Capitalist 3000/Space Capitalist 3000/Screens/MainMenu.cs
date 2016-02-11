@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 
-namespace Space_Capitalist_3000.Screens
+namespace Space_Capitalist_3000
 {
     class MainMenu : Screen
     {

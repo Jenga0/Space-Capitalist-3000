@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/joe/Documents/Visual Studio 2015/Projects/Space-Capitalist-3000/Space Capitalist 3000/Space Capitalist 3000/Content/background.png</SourceFile>
-  <SourceTime>2016-02-11T19:06:44.8900001+11:00</SourceTime>
+  <SourceTime>2016-02-15T18:33:45.1372286+11:00</SourceTime>
   <DestFile>C:/Users/joe/Documents/Visual Studio 2015/Projects/Space-Capitalist-3000/Space Capitalist 3000/Space Capitalist 3000/Content/bin/WindowsGL/background.xnb</DestFile>
-  <DestTime>2016-02-11T20:09:42.9822333+11:00</DestTime>
+  <DestTime>2016-02-15T18:34:23.5867687+11:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-12-18T08:52:48+11:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

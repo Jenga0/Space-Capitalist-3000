@@ -3,6 +3,7 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 #endregion
 
 namespace Space_Capitalist_3000
@@ -18,7 +19,8 @@ namespace Space_Capitalist_3000
 
         ContentManager content;
         Texture2D backgroundTexture;
-
+        
+        
         #endregion
 
         #region Initialization
@@ -71,12 +73,25 @@ namespace Space_Capitalist_3000
         /// coveredByOtherScreen parameter to false in order to stop the base
         /// Update method wanting to transition off.
         /// </summary>
-        public override void Update(GameTime gameTime, bool otherScreenHasFocus,
-                                                       bool coveredByOtherScreen)
+        public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
         {
+
+            
+             
             base.Update(gameTime, otherScreenHasFocus, false);
         }
 
+        public override void HandleInput(InputState input)
+        {
+            PlayerIndex outPlayer = new PlayerIndex();
+            if (input.IsNewKeyPress(Keys.Space, null, out outPlayer))
+            {
+                GameServices.DeviceManager.ToggleFullScreen();
+                GameServices.DeviceManager.ApplyChanges();
+            }
+
+            base.HandleInput(input);
+        }
 
         /// <summary>
         /// Draws the background screen.

@@ -9,19 +9,33 @@ namespace Space_Capitalist_3000
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager graphics;
+        public GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         ScreenManager screenManager;
+
         public Game1()
         {
+
+
+            
+            
+
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             screenManager = new ScreenManager(this);
+            
+
+            graphics.PreferredBackBufferHeight = 540;
+            graphics.PreferredBackBufferWidth = 910;
+            graphics.IsFullScreen = true;
+
+            
 
             Components.Add(screenManager);
 
             screenManager.AddScreen(new TestScreen(), null);
-            
+
+            GameServices.Initialize(graphics); 
         }
 
         /// <summary>
@@ -33,9 +47,11 @@ namespace Space_Capitalist_3000
         protected override void Draw(GameTime gameTime)
         {
             graphics.GraphicsDevice.Clear(Color.Black);
-
+            
             // The real drawing happens inside the screen manager component.
             base.Draw(gameTime);
         }
+        
+
     }
 }

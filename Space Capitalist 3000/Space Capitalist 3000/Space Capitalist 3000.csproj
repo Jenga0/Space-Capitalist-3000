@@ -58,6 +58,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GameServices.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="InputState.cs" />
     <Compile Include="Program.cs" />

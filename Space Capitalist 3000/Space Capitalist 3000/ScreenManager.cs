@@ -78,12 +78,9 @@ namespace Space_Capitalist_3000
         /// <summary>
         /// Constructs a new screen manager component.
         /// </summary>
-        public ScreenManager(Game game)
-            : base(game)
+        public ScreenManager(Game game) : base(game)
         {
-            // we must set EnabledGestures before we can query for them, but
-            // we don't assume the game wants to read them.
-            TouchPanel.EnabledGestures = GestureType.None;
+
         }
 
 
@@ -143,6 +140,9 @@ namespace Space_Capitalist_3000
         {
             // Read the keyboard and gamepad.
             input.Update();
+
+            
+            
 
             // Make a copy of the master screen list, to avoid confusion if
             // the process of updating one screen adds or removes others.
@@ -241,8 +241,7 @@ namespace Space_Capitalist_3000
 
             screens.Add(screen);
 
-            // update the TouchPanel to respond to gestures this screen is interested in
-            TouchPanel.EnabledGestures = screen.EnabledGestures;
+            
         }
 
 
@@ -263,12 +262,7 @@ namespace Space_Capitalist_3000
             screens.Remove(screen);
             screensToUpdate.Remove(screen);
 
-            // if there is a screen still in the manager, update TouchPanel
-            // to respond to gestures that screen is interested in.
-            if (screens.Count > 0)
-            {
-                TouchPanel.EnabledGestures = screens[screens.Count - 1].EnabledGestures;
-            }
+           
         }
 
 

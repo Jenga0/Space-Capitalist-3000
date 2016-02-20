@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input.Touch;
+using Microsoft.Xna.Framework.Input;
 #endregion
 
 namespace Space_Capitalist_3000
@@ -141,8 +141,15 @@ namespace Space_Capitalist_3000
             // Read the keyboard and gamepad.
             input.Update();
 
-            
-            
+
+            //Toggling between fullscreen and windowed, handy for debugging
+            PlayerIndex outPlayer = new PlayerIndex();
+            if (input.IsNewKeyPress(Keys.Space, null, out outPlayer))
+            {
+                GameServices.DeviceManager.ToggleFullScreen();
+                GameServices.DeviceManager.ApplyChanges();
+            }
+
 
             // Make a copy of the master screen list, to avoid confusion if
             // the process of updating one screen adds or removes others.

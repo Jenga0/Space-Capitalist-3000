@@ -24,9 +24,11 @@ namespace Space_Capitalist_3000
 
         public readonly KeyboardState[] CurrentKeyboardStates;
         public readonly GamePadState[] CurrentGamePadStates;
+        public readonly MouseState[] CurrentMouseStates;
 
         public readonly KeyboardState[] LastKeyboardStates;
         public readonly GamePadState[] LastGamePadStates;
+
 
         public readonly bool[] GamePadWasConnected;
 
@@ -44,6 +46,8 @@ namespace Space_Capitalist_3000
         {
             CurrentKeyboardStates = new KeyboardState[MaxInputs];
             CurrentGamePadStates = new GamePadState[MaxInputs];
+            CurrentMouseStates = new MouseState[MaxInputs];
+            
 
             LastKeyboardStates = new KeyboardState[MaxInputs];
             LastGamePadStates = new GamePadState[MaxInputs];
@@ -67,8 +71,11 @@ namespace Space_Capitalist_3000
                 LastKeyboardStates[i] = CurrentKeyboardStates[i];
                 LastGamePadStates[i] = CurrentGamePadStates[i];
 
+
                 CurrentKeyboardStates[i] = Keyboard.GetState((PlayerIndex)i);
                 CurrentGamePadStates[i] = GamePad.GetState((PlayerIndex)i);
+                CurrentMouseStates[i] = Mouse.GetState();
+
 
                 // Keep track of whether a gamepad has ever been
                 // connected, so we can detect if it is unplugged.

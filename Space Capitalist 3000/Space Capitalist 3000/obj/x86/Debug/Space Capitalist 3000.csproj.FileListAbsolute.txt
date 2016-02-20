@@ -2,6 +2,8 @@ C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space C
 C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Content\blank.xnb
 C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Content\gamefont.xnb
 C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Content\menufont.xnb
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Content\Menu\MenuBG.xnb
+C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Content\Menu\PlayButton.xnb
 C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Space Capitalist 3000.exe
 C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\Space Capitalist 3000.pdb
 C:\Users\joe\Documents\Visual Studio 2015\Projects\Space-Capitalist-3000\Space Capitalist 3000\Space Capitalist 3000\bin\WindowsGL\Debug\MonoGame.Framework.dll

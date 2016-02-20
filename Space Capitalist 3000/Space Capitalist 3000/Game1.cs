@@ -29,11 +29,12 @@ namespace Space_Capitalist_3000
             graphics.PreferredBackBufferWidth = 910;
             graphics.IsFullScreen = true;
 
-            
+            IsMouseVisible = true;
 
             Components.Add(screenManager);
 
             screenManager.AddScreen(new TestScreen(), null);
+            screenManager.AddScreen(new MainMenu(), null);
 
             GameServices.Initialize(graphics); 
         }

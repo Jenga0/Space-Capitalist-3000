@@ -81,17 +81,7 @@ namespace Space_Capitalist_3000
             base.Update(gameTime, otherScreenHasFocus, false);
         }
 
-        public override void HandleInput(InputState input)
-        {
-            PlayerIndex outPlayer = new PlayerIndex();
-            if (input.IsNewKeyPress(Keys.Space, null, out outPlayer))
-            {
-                GameServices.DeviceManager.ToggleFullScreen();
-                GameServices.DeviceManager.ApplyChanges();
-            }
 
-            base.HandleInput(input);
-        }
 
         /// <summary>
         /// Draws the background screen.
